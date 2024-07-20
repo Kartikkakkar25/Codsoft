@@ -4,16 +4,16 @@ public class task1{
     public static void main(String args[]){
         Random rdm = new Random();
         Scanner sc = new Scanner(System.in);
-        int Score=5;
         int final_score=0;
         int l=1;
         int h=100;
         int record=0;
-        int chance=5;
         int round=1;
         while(round==1){
             record+=1;
             int rint = rdm.nextInt(h-l)+l;
+            int chance=5;
+            int Score=5;
             while(chance>0){
                 System.out.print("Enter Your Guess in integer value: ");
                 int guess= sc.nextInt();
