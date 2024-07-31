@@ -44,7 +44,7 @@ public class task3 {
                 System.out.print("Enter the amount you want to withdraw: ");
                 float amt=sc.nextFloat();
                 System.out.println("You withdrew "+ a.Withdraw(amt, u1)+" Rupess!");
-                System.out.print("Do you want to display closing balance on screen? \n if yes- Enter 1, if no- Enter any other number: ");
+                System.out.print("Do you want to display closing balance on screen? \nif yes- Enter 1, if no- Enter any other number: ");
 
                 int BCheck= sc.nextInt();
                 if(BCheck==1){
