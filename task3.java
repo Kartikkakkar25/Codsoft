@@ -68,7 +68,10 @@ public class task3 {
             }
             System.out.print("Do you want to continue? (1 for Yes | Any other number for No):");
             int cont=sc.nextInt();
-            if(cont==0){
+            if(cont==1){
+                loop=1;
+            }
+            else{
                 loop=0;
             }
         }
